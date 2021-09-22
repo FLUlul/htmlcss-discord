@@ -13,11 +13,36 @@ body{
 }
 header{
     background-color: rgb(37,94,233);
+    padding: 50px;
 }
 .bloccoCentro80{
     width: 80%;
     margin: 0 auto;
 }
+
+nav li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.logo{
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
+nav{
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+    line-height: 37px;
+}
+header .accedi{
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+    line-height: 37px;
+
+}
+
 
 
 .jumbotron img{ 
