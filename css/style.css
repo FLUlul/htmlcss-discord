@@ -101,7 +101,6 @@ main section:nth-child(even){
 }
 main section{
     height: 100vh;
-    border: solid;
     position: relative;
 }
 .containerIMGeTXT{
@@ -122,6 +121,7 @@ main section{
     margin-top: 20px;
     font-size: 25px;
 }
+/* img e testo invertiti */
 .reverseIMG{
     float: right;
 }
@@ -129,9 +129,9 @@ main section{
     float: left;
     width:25%;
 }
-
+/* ultima sezione prima del footer */
 .pre-footer{
-    height: 130vh;
+    height: 150vh;
 }
 .verticale{
     text-align: center;
@@ -143,5 +143,23 @@ main section{
 .verticale img{
     width: 100%;
 }
+.containerIMGeTXT h3{
+    text-align: center;
+}
+.stelle{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.containerIMGeTXT .containerPulsante{
+    text-align: center;
+    margin: 70px;
+}
+.containerIMGeTXT .scarica{
+    background-color: #8ea1e1;
+    color:white;
+    font-size: 20px;
+}
 
+/* footer */
 
