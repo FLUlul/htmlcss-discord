@@ -44,11 +44,23 @@ header .accedi{
 }
 
 
-
+.jumbotron{
+    position: relative;
+}
 .jumbotron img{ 
-/*     background-image: url(../img/jumbo.png);
-    background-size: contain;    */ 
     max-width: 100%;
     height: auto;
 }
+.bloccoCentro30{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    background-color: green;
+    text-align: center;
+    font-size: 40px;
+}
+
+
 
