@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Whitney,Neue Helvetica,Helvetica,Arial,sans-serif;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* contenitori e stili generici */
+.bloccoCentro70{
+    width: 70%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.containerPulsante a{
+    color: rgb(35,39,42);
+}
+.pulsante{
+    background-color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+/* header section */
+header{
+    background-color: rgb(37,94,233);
+    padding: 50px;
+}
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.logo{
+    float: left;
+    width: calc(100% / 3 - 50px);
+}
+nav{
+    float: left;
+    text-align: center;
+    line-height: 37px;
+}
+header .containerPulsante{
+    float: left;
+    width: calc(100% / 3 - 50px);
+    line-height: 37px;
+    text-align: right;
+}
+
+/* jumbotron section */
+.jumbotron{
+    position: relative;
+}
+.jumbotron img{ 
+    max-width: 100%;
+    height: auto;
+}
+.bloccoCentro40{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.bloccoCentro40 p{
+    font-size: 25px;
+    margin: 50px 0; 
+}
+/* pulsanti jumbotron */
+.bloccoCentro40 .containerPulsante{
+    font-size: 25px;
+    display: inline-block;
+}
+.scarica, .browser{
+    padding: 20px 40px;
+}
+.scarica i{
+    padding-right: 10px;
+}
+.scarica{
+    margin-right: 30px;
+}
+#white{
+    background-color: rgb(35,39,42);
+    color: white;
+}
+
+/* sezioni main */
+main section:nth-child(even){
+    background-color: rgb(238, 238, 238);
+}
+main section{
+    height: 100vh;
+    padding: 25vh 0;
+}
+.containerIMGeTXT{
+    font-size: 30px;
+}
+.containerIMG{
+    float: left;
+}
+.containerTXT{
+    float: right;
+    width:25%;
+}
+.containerTXT p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+/* img e testo invertiti */
+.reverseIMG{
+    float: right;
+}
+.reverseTXT{
+    float: left;
+    width:25%;
+}
+/* ultima sezione prima del footer */
+.pre-footer{
+    height: 180vh;
+}
+.verticale{
+    text-align: center;
+}
+.verticale p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.verticale img{
+    width: 100%;
+}
+.containerIMGeTXT h3{
+    text-align: center;
+}
+.stelle{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.containerIMGeTXT .containerPulsante{
+    text-align: center;
+    margin: 70px;
+}
+.containerIMGeTXT .scarica{
+    background-color: #8ea1e1;
+    color:white;
+    font-size: 20px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(35,39,42) ;
+}
+/* parte superiore footer */
+.containerFooterTop{
+    padding: 50px 0;
+    border-bottom: solid 1px; 
+    color:#8ea1e1;
+}
+.contatti{
+    float: left;
+    width:calc(100% / 5) ;
+}
+.containerListe{
+    float: left;
+    width:calc(100% / 5) ;
+}
+.containerListe li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+.containerListe li a{
+    color: white;
+}
+.italia{
+    margin-top: 30px;
+    max-width: 10%;
+}
+.contatti span{
+    color: white;
+}
+.social i{
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* parte inferiore footer */
+.containerFooterBottom{
+    padding: 20px;
+}
+.containerFooterBottom img{
+    float: left;
+}
+.containerPulsante .registrati{
+    color: white;
+}
+.registrati{
+    float: right;
+    background-color: #8ea1e1;
+}
