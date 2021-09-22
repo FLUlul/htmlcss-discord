@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Whitney,Neue Helvetica,Helvetica,Arial,sans-serif;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    background-color: rgb(37,94,233);
+}
+.bloccoCentro80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.jumbotron img{ 
+/*     background-image: url(../img/jumbo.png);
+    background-size: contain;    */ 
+    max-width: 100%;
+    height: auto;
+}
+
