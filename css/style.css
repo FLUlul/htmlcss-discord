@@ -11,18 +11,32 @@ body{
     display: table;
     clear: both;
 }
-header{
-    background-color: rgb(37,94,233);
-    padding: 50px;
-}
+
 .bloccoCentro80{
     width: 80%;
     margin: 0 auto;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.containerPulsante a{
+    color: rgb(35,39,42);
+}
+.pulsante{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 25px;
+}
 
+/* header section */
+header{
+    background-color: rgb(37,94,233);
+    padding: 50px;
+}
 nav li{
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 .logo{
     float: left;
@@ -35,15 +49,14 @@ nav{
     text-align: center;
     line-height: 37px;
 }
-header .accedi{
+header .containerPulsante{
     float: left;
     width: calc(100% / 3);
     text-align: center;
     line-height: 37px;
-
 }
 
-
+/* jumbotron section */
 .jumbotron{
     position: relative;
 }
@@ -51,16 +64,39 @@ header .accedi{
     max-width: 100%;
     height: auto;
 }
-.bloccoCentro30{
+.bloccoCentro40{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 40%;
-    background-color: green;
     text-align: center;
     font-size: 40px;
+    color: white;
 }
+.bloccoCentro40 p{
+    font-size: 25px;
+    margin: 50px 0; 
+}
+.bloccoCentro40 .containerPulsante{
+    font-size: 25px;
+    display: inline-block;
+}
+
+.scarica, .browser{
+    padding: 20px 40px;
+}
+.scarica i{
+    padding-right: 10px;
+}
+.scarica{
+    margin-right: 30px;
+}
+#white{
+    background-color: rgb(35,39,42);
+    color: white;
+}
+
 
 
 
