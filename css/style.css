@@ -194,3 +194,18 @@ footer{
     margin-top: 30px;
     font-size: 20px;
 }
+
+/* parte inferiore footer */
+.containerFooterBottom{
+    padding: 20px;
+}
+.containerFooterBottom img{
+    float: left;
+}
+.containerPulsante .registrati{
+    color: white;
+}
+.registrati{
+    float: right;
+    background-color: #8ea1e1;
+}
