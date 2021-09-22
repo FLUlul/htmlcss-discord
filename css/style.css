@@ -101,13 +101,9 @@ main section:nth-child(even){
 }
 main section{
     height: 100vh;
-    position: relative;
+    padding: 25vh 0;
 }
 .containerIMGeTXT{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     font-size: 30px;
 }
 .containerIMG{
@@ -172,5 +168,4 @@ main section{
 .containerListe{
     float: left;
     width:calc(100% / 5) ;
-    display: inline-block;
 }
