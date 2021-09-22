@@ -11,9 +11,9 @@ body{
     display: table;
     clear: both;
 }
-
-.bloccoCentro80{
-    width: 80%;
+/* contenitori e stili generici */
+.bloccoCentro70{
+    width: 70%;
     margin: 0 auto;
 }
 a{
@@ -25,7 +25,7 @@ a{
 }
 .pulsante{
     background-color: aliceblue;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 25px;
 }
 
@@ -36,24 +36,22 @@ header{
 }
 nav li{
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 .logo{
     float: left;
-    width: calc(100% / 3);
-    text-align: center;
+    width: calc(100% / 3 - 50px);
 }
 nav{
     float: left;
-    width: calc(100% / 3);
     text-align: center;
     line-height: 37px;
 }
 header .containerPulsante{
     float: left;
-    width: calc(100% / 3);
-    text-align: center;
+    width: calc(100% / 3 - 50px);
     line-height: 37px;
+    text-align: right;
 }
 
 /* jumbotron section */
@@ -78,11 +76,11 @@ header .containerPulsante{
     font-size: 25px;
     margin: 50px 0; 
 }
+/* pulsanti jumbotron */
 .bloccoCentro40 .containerPulsante{
     font-size: 25px;
     display: inline-block;
 }
-
 .scarica, .browser{
     padding: 20px 40px;
 }
@@ -97,6 +95,32 @@ header .containerPulsante{
     color: white;
 }
 
-
+/* sezioni main */
+main section:nth-child(even){
+    background-color: rgb(238, 238, 238);
+}
+main section{
+    height: 100vh;
+    border: solid;
+    position: relative;
+}
+.containerIMGeTXT{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.containerIMG{
+    float: left;
+}
+.containerTXT{
+    float: right;
+    width:25%;
+}
+.containerTXT p{
+    margin-top: 20px;
+    font-size: 20px;
+}
 
 
