@@ -127,7 +127,7 @@ main section{
 }
 /* ultima sezione prima del footer */
 .pre-footer{
-    height: 150vh;
+    height: 180vh;
 }
 .verticale{
     text-align: center;
@@ -158,8 +158,14 @@ main section{
 }
 
 /* footer */
+footer{
+    background-color: rgb(35,39,42) ;
+}
+/* parte superiore footer */
 .containerFooterTop{
-    border: solid;
+    padding: 50px 0;
+    border-bottom: solid 1px; 
+    color:#8ea1e1;
 }
 .contatti{
     float: left;
@@ -168,4 +174,23 @@ main section{
 .containerListe{
     float: left;
     width:calc(100% / 5) ;
+}
+.containerListe li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+.containerListe li a{
+    color: white;
+}
+.italia{
+    margin-top: 30px;
+    max-width: 10%;
+}
+.contatti span{
+    color: white;
+}
+.social i{
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 20px;
 }
