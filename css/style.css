@@ -162,4 +162,15 @@ main section{
 }
 
 /* footer */
-
+.containerFooterTop{
+    border: solid;
+}
+.contatti{
+    float: left;
+    width:calc(100% / 5) ;
+}
+.containerListe{
+    float: left;
+    width:calc(100% / 5) ;
+    display: inline-block;
+}
