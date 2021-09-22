@@ -120,7 +120,28 @@ main section{
 }
 .containerTXT p{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
+}
+.reverseIMG{
+    float: right;
+}
+.reverseTXT{
+    float: left;
+    width:25%;
+}
+
+.pre-footer{
+    height: 130vh;
+}
+.verticale{
+    text-align: center;
+}
+.verticale p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.verticale img{
+    width: 100%;
 }
 
 
