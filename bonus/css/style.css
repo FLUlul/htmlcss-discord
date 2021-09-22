@@ -221,3 +221,6 @@ footer{
     background-color:white;
     margin-bottom: -5px;
 }
+a:hover{
+    filter: brightness(90%);
+}
