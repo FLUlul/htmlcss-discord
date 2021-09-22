@@ -96,8 +96,11 @@ header .containerPulsante{
 }
 
 /* sezioni main */
-main section:nth-child(even){
-    background-color: rgb(238, 238, 238);
+main .grey{
+    background-color: rgb(235, 235, 235);
+}
+main section {
+    background-color: rgb(255, 255, 255);
 }
 main section{
     height: 100vh;
@@ -208,4 +211,13 @@ footer{
 .registrati{
     float: right;
     background-color: #8ea1e1;
+}
+.wave-1hkxOo{
+    color: white;
+    background-color:rgb(235, 235, 235);
+}
+.svggrey .wave-1hkxOo{
+    color: rgb(235, 235, 235);
+    background-color:white;
+    margin-bottom: -5px;
 }
