@@ -6,7 +6,7 @@
 body{
     font-family: Whitney,Neue Helvetica,Helvetica,Arial,sans-serif;
 }
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
